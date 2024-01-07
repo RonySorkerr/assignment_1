@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-body {
+main {
     width: 80%;
     margin: auto;
 }
@@ -253,6 +253,7 @@ header .banner .banner_content {
 .portfolio #visit{
     color: black;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
 }
 
 .port_design{
@@ -277,6 +278,7 @@ header .banner .banner_content {
     border-radius: 10px;
     margin-bottom: 80px;
     padding: 40px;
+    text-align: center;
 }
 
 .newsletter img{
@@ -289,4 +291,99 @@ header .banner .banner_content {
     font-size: 30px;
     text-align: center;
     margin: 20px auto;
+}
+
+.newsletter p{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+.newsletter input{
+    padding: 16px 20px;
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.newsletter button{
+    padding: 15px 10px;
+    border: 0;
+    margin-left: -5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: red;
+    text-transform: uppercase;
+    color: white;
+    font-family: Inter;
+}
+
+/* footer's address section styling */
+
+footer{
+    
+    background-color: #070211;
+}
+
+.address_foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Inter;
+}
+
+.address_foot{
+    padding: 40px 150px 40px 150px;
+}
+
+
+
+.contact{
+    
+}
+
+.contact .call{
+    display: flex;
+}
+
+.call .call_icon{
+    margin-right: 10px;
+}
+
+.contact .website{
+    display: flex;
+}
+
+.website .web_icon{
+    margin-right: 10px;
+}
+
+/* hr horizontal line styling */
+
+hr{
+    border: 0;
+    color: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 80%;
+    margin: auto;
+}
+
+/* links section styling */
+
+.links{
+    padding: 40px;
+    text-align: center;
+}
+
+.links a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.last_foot{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px 40px 150px;
 }
