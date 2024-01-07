@@ -21,17 +21,19 @@ main {
 header {
     background-image: url('assets/resources/Banner\ Image.png');
     height: 450px;
-    background-size: cover;
-    background-position: center;
-    margin: 50px 140px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 header .banner .banner_content {
+    position: absolute;
     font-family: 'Merriweather', serif;
     color: white;
     width: 30%;
-    margin: auto;
-    justify-content: center;
     background-color: red;
     text-align: center;
 }
@@ -68,7 +70,7 @@ header .banner .banner_content {
     margin: 80px auto;
 }
 
-.new_year img {}
+
 
 /* welcome to party section styling */
 
@@ -90,12 +92,9 @@ header .banner .banner_content {
 
 .welcome_to_party .content{
     color: white;
-
-}
-
-.welcome_to_party .content{
     width: 40%;
 }
+
 
 .welcome_to_party .content h1{
     font-family: Merriweather;
@@ -111,11 +110,19 @@ header .banner .banner_content {
 
 .welcome_to_party .content button{
     background-color: transparent;
-    border: 0;
+    border: 0.2px dotted red;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 2px 5px -1px, rgba(255, 0, 0, 0.3) 0px 1px 3px -1px;
     color: white;
     cursor: pointer;
     font-family: Inter;
     font-weight: 900;
+    transition: 0.4s;
+}
+
+.welcome_to_party .content button:hover{
+    background-color: rgba(255, 0, 0, 0.171);
 }
 
 /* Location styling */
@@ -238,6 +245,10 @@ header .banner .banner_content {
 
 /* portfolio section styling */
 
+.portfolio .top_content{
+    width: 60%;
+}
+
 .portfolio p{
     color: red;
     font-family: 'Inter', sans-serif;
@@ -336,11 +347,6 @@ footer{
     padding: 40px 150px 40px 150px;
 }
 
-
-
-.contact{
-    
-}
 
 .contact .call{
     display: flex;
