@@ -20,9 +20,7 @@ main {
 
 .banner {
     margin-top: 50px;
-    background-image: url('assets/resources/Banner\ Image.png');
-    background-color: linear-gradient(180deg, #0d0420 0%, rgba(7, 2, 17, 0.00) 100%);
-    ;
+    background-image: linear-gradient(180deg, #0d0420c0 0%, rgba(7, 2, 17, 0.00) 100%), url('assets/resources/Banner\ Image.png');    
     display: flex;
     margin: 80px auto;
     width: 80%;
@@ -31,22 +29,23 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 450px;
+    height: 500px;
     border-radius: 15px;
     
 
 }
 
+
 .banner_content {
     width: 50%;
-    color: #ffd000;
+    color: #ffffff;
 }
 
 .banner_content p {
-    font-family: Merriweather;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     letter-spacing: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .banner_content h1 {
@@ -61,7 +60,7 @@ main {
 
 .discount {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .discount .off {
@@ -338,14 +337,16 @@ main {
 }
 
 .newsletter input {
-    padding: 16px 20px;
+    padding: 16px 80px;
+    text-align: left;
+    color: rgb(0, 85, 119);
     border: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .newsletter button {
-    padding: 15px 10px;
+    padding: 15px 30px;
     border: 0;
     margin-left: -5px;
     border-top-right-radius: 20px;
