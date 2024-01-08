@@ -1,3 +1,13 @@
+/* I Do Not know everything about css,
+all the style i Have done 85% is done by my hard work 
+and the other 15% was done by searching on google and on youtube.
+And the Holidays sale 50% section is not designed cause, I didn't get 
+anything about it. I hope it will be covered in the next milestoe.
+Thanks...
+ */
+
+
+
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 /* font-family: 'Merriweather', serif; */
@@ -261,6 +271,22 @@ main {
     color: red;
 }
 
+
+.functional_error{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;    
+    font-family: 'Inter', sans-serif;
+}
+
 /* portfolio section styling */
 
 .portfolio .top_content {
@@ -307,6 +333,7 @@ main {
 .port_image img:hover {
     filter: saturate(1);
 }
+
 
 
 /* newsletter section styling */
@@ -357,6 +384,7 @@ main {
     font-family: Inter;
     cursor: pointer;
 }
+
 
 /* footer's address section styling */
 
@@ -422,4 +450,9 @@ hr {
     display: flex;
     justify-content: space-between;
     padding: 40px 150px 40px 150px;
+}
+
+.unsbs a{
+    text-decoration: none;
+    color: white;
 }
